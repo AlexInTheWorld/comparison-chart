@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+h1 {
+    font-family: "Markazi Text", serif;
+    font-size: 2rem;
+}
+
+.mic-bar {
+    z-index: 10;
+}
+
+.hic-bar:hover {
+    fill: #adf542; 
+}
+
+.mic-bar:hover {
+    fill: #080d3b;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  #y-axis .tick text {
+    font-size: 8px;
+  }
+  #x-axis .tick text {
+    font-size: 10px;
+  }
+}
